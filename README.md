@@ -9,4 +9,6 @@ For the first phase, we will focus on creating a Cyber Domain PIM, that is confo
 
 Most of the work will be conducted through an OMG email list: threat-modeling@omg.org. For questions, please contact request@omg.org. 
 
+Also, please check out Project Interoperatbility at http://project-interoperability.github.io/. This project is spearheaded by PM-ISE to improve overall interoperability for information shareing. 
+
 
