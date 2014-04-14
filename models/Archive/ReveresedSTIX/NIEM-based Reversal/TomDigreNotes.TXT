@@ -1,0 +1,7 @@
+Doing the same procedure as before, including:
+Schemas were imported as extension schemas with the following variants:
+•	data_marking.xsd and stix_common.xsd were not included from the local schema set in order to avoid multiple models with same namespace; they are picked up transitively from the internet and appear as an external schema in the model.
+•	capec_2.7_attack.xsd and maec_4.1_malware.xsd were not included in order to avoid stack overflow problem.  These schemas are not referenced by any of the other schemas.  Resolution of these schemas will need to be handled separately.
+•	cvrf_1.1_vulnerability.xsd and oval_5.10_test_mechanism.xsd were included in the local schema set, but result in resolution of multiple external schemas for a single namespace.  cvrf results in multiple "xml" schemas.  oval results in multiple "oval-common-schema" and "xmldsig-core-schema" schemas.
+Also:
+•	As before, there are many validation errors in resulting model.
