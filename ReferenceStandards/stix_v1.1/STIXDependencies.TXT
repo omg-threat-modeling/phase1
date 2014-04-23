@@ -1,0 +1,7 @@
+http://capec.mitre.org/
+http://maec.mitre.org/
+http://stix.mitre.org/language/version1.0/xsddocs/data_marking/1.0/data_marking_xsd.html
+http://oval.mitre.org/
+http://scap.nist.gov/
+https://www.mandiant.com/
+http://www.icasi.org/
