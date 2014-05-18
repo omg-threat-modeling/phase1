@@ -13,6 +13,7 @@ The current Meeting Schedule is here: https://github.com/omg-threat-modeling/pha
 
 Also, please check out Project Interoperatbility at http://project-interoperability.github.io/. This project is spearheaded by PM-ISE to improve overall interoperability for information shareing. 
 
-All information posted to this site must be unclassified and unrestricted. The site is open to all. Information derived from posted information may be utilized in the OMG specification being developed for threats and risks. Anless otherwise specified, all information posted to this site shall be deemed licensed under the Create Commons license
+All information posted to this site must be unclassified and unrestricted. The site is open to all. Information derived from posted information may be utilized in the OMG specification being developed for threats and risks. Unless otherwise specified, all information posted to this site shall be deemed licensed under the Create Commons license.
+
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
