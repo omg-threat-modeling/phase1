@@ -8,18 +8,26 @@ The RFP draft was submitted to the OMG Architecture Board and will be discussed 
 
 <ul>
 <li>Sunday: 
+	<ul>
 	<li>1-6pm Workgroup Meeting</li>
+	</ul>
 </li>
 <li>Monday: 
+	<ul>
 	<li>9:30 - 10:00am BMI Meeting</li>
 	<li>10:30 - 12:00pm SysA Meeting</li>
 	<li>Afternoon) Architecture Board</li>
+	</ul>
 </li>
 <li>Tuesday:
+	<ul>
 	<li>4:10 - 4:45pm MARS & SysA</li>
+	</ul>
 </li>
 <li>Thursday: 
+	<ul>
 	<li>(Afternoon) Architecture Board (tentative)</li>
+	</ul>
 </li>
 </ul>
 
