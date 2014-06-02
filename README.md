@@ -1,6 +1,27 @@
 OMG Threat Modeling Phase1
 ======
 
+NEWS: 
+
+
+The RFP draft was submitted to the OMG Architecture Board and will be discussed at the OMG Meeting in Cambridge, MA in the week of June 16 - 21. The tentative meeting schedule is below: 
+
+Sunday: 
+	* 1-6pm Workgroup Meeting
+Monday: 
+	* 9:30 - 10:00am BMI Meeting
+	* 10:30 - 12:00pm SysA Meeting
+	* (Afternoon) Architecture Board
+Tuesday: 
+	* 4:10 - 4:45pm MARS & SysA
+Thursday: 
+	* (Afternoon) Architecture Board (tentative)
+
+
+In addition, we are working on a use case document to verify the requirements. Please send your information to us or inclusion. 
+
+---
+		
 Synopsis: Repository for Phase 1 of OMG Threat Modeling (Cyber Domain PIM, STIX and NIEM PSM)
 
 This is the repository for the first phase of the OMG Threat Modeling effort. The overall goal for this effort is to create a semantically consisten threat meta model that can be used to federate between different threat sharing standards, and enable a vibrant threat sharing ecosystem. 
