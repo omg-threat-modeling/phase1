@@ -6,17 +6,22 @@ NEWS:
 
 The RFP draft was submitted to the OMG Architecture Board and will be discussed at the OMG Meeting in Cambridge, MA in the week of June 16 - 21. The tentative meeting schedule is below: 
 
-Sunday: 
-	* 1-6pm Workgroup Meeting
-Monday: 
-	* 9:30 - 10:00am BMI Meeting
-	* 10:30 - 12:00pm SysA Meeting
-	* (Afternoon) Architecture Board
-Tuesday: 
-	* 4:10 - 4:45pm MARS & SysA
-Thursday: 
-	* (Afternoon) Architecture Board (tentative)
-
+<ul>
+<li>Sunday: 
+	<li>1-6pm Workgroup Meeting</li>
+</li>
+<li>Monday: 
+	<li>9:30 - 10:00am BMI Meeting</li>
+	<li>10:30 - 12:00pm SysA Meeting</li>
+	<li>Afternoon) Architecture Board</li>
+</li>
+<li>Tuesday:
+	<li>4:10 - 4:45pm MARS & SysA</li>
+</li>
+<li>Thursday: 
+	<li>(Afternoon) Architecture Board (tentative)</li>
+</li>
+</ul>
 
 In addition, we are working on a use case document to verify the requirements. Please send your information to us or inclusion. 
 
