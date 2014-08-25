@@ -4,42 +4,14 @@ OMG Threat Modeling Phase1
 NEWS: 
 
 
-The RFP draft was submitted to the OMG Architecture Board and will be discussed at the OMG Meeting in Cambridge, MA in the week of June 16 - 21. The tentative meeting schedule is below: 
+The Object Management Group (omg.org) in collaboration with government, industry and academic organizations has initiated a standards activity for an operational threat and risk model (AKA Ontology) intended to federate multiple formats, technologies and use cases to enable a fusion of information in support of proactive and reactive threat/risk assessment, analytics, mitigation and information sharing. The focus of this effort is fusion of threat and risk information across physical, criminal and cyber concerns. Some of the data structures we are federating include the STIX, NIEM and CAP standards.
 
-<ul>
-<li>Sunday: 
-	<ul>
-	<li>1-6pm Workgroup Meeting</li>
-	</ul>
-</li>
-<li>Monday: 
-	<ul>
-	<li>9:30 - 10:00am BMI Meeting</li>
-	<li>10:30 - 12:00pm SysA Meeting</li>
-	<li>Afternoon) Architecture Board</li>
-	</ul>
-</li>
-<li>Tuesday:
-	<ul>
-	<li>4:10 - 4:45pm MARS & SysA</li>
-	</ul>
-</li>
-<li>Thursday: 
-	<ul>
-	<li>(Afternoon) Architecture Board (tentative)</li>
-	</ul>
-</li>
-</ul>
+As an OMG standards effort a team has formed to respond to this RFP with a specification for a proposed standard. This repository provides tghe foundation for the evolving specification.
 
-In addition, we are working on a use case document to verify the requirements. Please send your information to us or inclusion. 
+The specific RFP is available here: 
+http://www.omg.org/cgi-bin/doc.cgi?sysa/2014-6-17
 
----
-		
-Synopsis: Repository for Phase 1 of OMG Threat Modeling (Cyber Domain PIM, STIX and NIEM PSM)
-
-This is the repository for the first phase of the OMG Threat Modeling effort. The overall goal for this effort is to create a semantically consisten threat meta model that can be used to federate between different threat sharing standards, and enable a vibrant threat sharing ecosystem. 
-
-For the first phase, we will focus on creating a conceptual threat model (that can be mapped to a Cyber Domain PIM, that is conformant with the UML Profile for NIEM), and will generate both NIEM-compliant schemas and STIX artifacts. Enabling a mapping between these established information sharing systems will create a baseline for the the broader threat meta model. 
+The workgroup meets each week and at OMG meetings. This submission team is reaching out to industry experts to participate, particularly vendors, researchers and organizations with critical threat/risk needs. Please contact us if you are interested in joining us.
 
 Most of the work will be conducted through an OMG email list: threat-modeling@omg.org. For questions, please contact request@omg.org. 
 
