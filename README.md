@@ -15,7 +15,7 @@ The workgroup meets each week and at OMG meetings. This submission team is reach
 
 Most of the work will be conducted through an OMG email list: threat-modeling@omg.org. For questions, please contact request@omg.org. 
 
-Our team artifacts are located on github, here:
+Our team artifacts are located on github, here:<p/>
   ** Github repository: https://github.com/omg-threat-modeling/phase1/<p/>
   ** Conceptual model terms and concepts: http://www.niem-uml.org/specs/threat/Data%20dictionary.html<p/>
   ** Web view of conceptual model: http://www.niem-uml.org/specs/threat/RiskThreatConceptualModel.html<p/>
