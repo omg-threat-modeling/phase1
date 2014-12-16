@@ -15,9 +15,12 @@ The workgroup meets each week and at OMG meetings. This submission team is reach
 
 Most of the work will be conducted through an OMG email list: threat-modeling@omg.org. For questions, please contact request@omg.org. 
 
+Our team artifacts are located on github, here:<p/>
+  ** Github repository: https://github.com/omg-threat-modeling/phase1/<p/>
+  ** Conceptual model terms and concepts: http://www.niem-uml.org/specs/threat/Data%20dictionary.html<p/>
+  ** Web view of conceptual model: http://www.niem-uml.org/specs/threat/RiskThreatConceptualModel.html<p/>
+  
 The current Meeting Schedule is here: https://github.com/omg-threat-modeling/phase1/wiki
-
-Also, please check out Project Interoperatbility at http://project-interoperability.github.io/. This project is spearheaded by PM-ISE to improve overall interoperability for information shareing. 
 
 All information posted to this site must be unclassified and unrestricted. The site is open to all. Information derived from posted information may be utilized in the OMG specification being developed for threats and risks. Unless otherwise specified, all information posted to this site shall be deemed licensed under the Create Commons license.
 
