@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+<uml:Package xmlns:uml="http://www.omg.org/spec/UML/20131001" xmi:type="uml:Package" xmi:id="_17_0_5_1_7b3022e_1402323567676_316901_6441" name="Data">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1408571503704_293542_6204" body="Author:Cory Casanave.&#10;Created:.&#10;Title:Threat / risk foundation conceptual model.&#10;Comment:.&#10;">
+<annotatedElement xmi:idref="_17_0_5_1_7b3022e_1402323567676_316901_6441"/>
+</ownedComment>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_7b3022e_1396736989698_799900_8100" name="Conceptual Modeling and Mapping Library">
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_7b3022e_1396735566394_367231_7753" name="Core Concepts">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1396647291186_698320_5704" name="Situation">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407859338182_667116_3934" body="A particular configuration involving anything including spacial, temporal and logical connections between those things valid over a period of time.">
+<annotatedElement xmi:idref="_17_0_5_1_7b3022e_1396647291186_698320_5704"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006017_222784_4322" general="_17_0_5_1_7b3022e_1396643659668_468327_4047"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006017_746775_4323" general="_17_0_5_1_3ba019e_1407439004164_763407_4196"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1396735777785_259164_7910" name="starts on" aggregation="composite" type="_17_0_5_1_7b3022e_1398808729838_576574_5225"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1396735792618_362377_7937" name="ends on" aggregation="composite" type="_17_0_5_1_7b3022e_1398808729838_576574_5225"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407440748531_344803_5848" name="involvement" aggregation="composite" type="_17_0_5_1_3ba019e_1407439004187_898905_4218" association="_17_0_5_1_3ba019e_1407440748529_906150_5846"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407441993913_406942_6578" name="consequence" aggregation="composite" type="_17_0_5_1_3ba019e_1407439004191_348666_4226" association="_17_0_5_1_3ba019e_1407441993913_827118_6577">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398371476806_855515_7074"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407451343330_828277_9246" name="impacts" type="_17_0_5_1_7b3022e_1396643659668_468327_4047" association="_17_0_5_1_3ba019e_1407451343330_74105_9245">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1408465206913_98172_6923"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407452650387_521196_11956" type="_17_0_5_1_3ba019e_1407452267066_776903_11252" association="_17_0_5_1_3ba019e_1407452650386_545254_11954"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407440892512_347666_6057" name="matches" type="_17_0_5_1_3ba019e_1407439004204_145382_4251" association="_17_0_5_1_3ba019e_1407440892512_28806_6055">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1396817357750_652226_5467"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1400683339429_949849_5660" name="observed by" type="_17_0_5_1_7b3022e_1400683217455_550622_5555" association="_17_0_5_1_7b3022e_1400683339429_135001_5658"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1396735872201_882247_7988">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1396735872201_799708_7989"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1396735872201_80742_7990"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1396738507704_337422_8835" name="Anything">
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1396817357750_652226_5467" name="categorized by" type="_17_0_5_1_7b3022e_1396817172125_738530_5334" association="_17_0_5_1_7b3022e_1396817357749_613249_5465">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407444653321_656129_7804"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1396735872201_80742_7990" name="plays role" type="_17_0_5_1_7b3022e_1398546578631_480785_7098" association="_17_0_5_1_7b3022e_1396735872201_882247_7988"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407440725242_329910_5788" type="_17_0_5_1_3ba019e_1407439004187_898905_4218" association="_17_0_5_1_3ba019e_1407440725241_46211_5786"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407444653321_656129_7804" name="in contex of" type="_17_0_5_1_3ba019e_1407439004164_763407_4196" association="_17_0_5_1_3ba019e_1407444653321_119650_7802"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1410557065833_365580_4874" name="described by" type="_17_0_5_1_3ba019e_1410557023888_392465_4845" association="_17_0_5_1_3ba019e_1410557065832_194080_4872"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_18_0_2_3ba019e_1420149152223_430450_4902" name="is defined by" type="_17_0_5_1_7b3022e_1398293735973_309772_6480" association="_18_0_2_3ba019e_1420149152223_94730_4900"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1396817172125_738530_5334" name="Category">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1397845943559_383517_6275" general="_17_0_5_1_7b3022e_1396643659668_468327_4047"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407445166513_872305_7827" general="_17_0_5_1_3ba019e_1407439004164_763407_4196"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1396817357749_905352_5466" name="categorizes" type="_17_0_5_1_7b3022e_1396738507704_337422_8835" association="_17_0_5_1_7b3022e_1396817357749_613249_5465">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407444653321_443423_7803"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1396817357749_613249_5465">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1396817357749_905352_5466"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1396817357750_652226_5467"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398294216796_903071_6610" name="Occurance">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_7b3022e_1398548277631_212932_7210" body="Anything that happens. A dynamic situation of a set of things changing over a period of time {Endurant}">
+<annotatedElement xmi:idref="_17_0_5_1_7b3022e_1398294216796_903071_6610"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1398541907448_575776_5175" general="_17_0_5_1_7b3022e_1396647291186_698320_5704"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398377277902_860452_7979" name="uses" type="_17_0_5_1_7b3022e_1396643659668_468327_4047" association="_17_0_5_1_7b3022e_1398377277902_140494_7978"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398449037094_200973_4616" name="after" type="_17_0_5_1_7b3022e_1398294216796_903071_6610" association="_17_0_5_1_7b3022e_1398449037093_752457_4615"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398449037094_388471_4617" name="before" type="_17_0_5_1_7b3022e_1398294216796_903071_6610" association="_17_0_5_1_7b3022e_1398449037093_752457_4615"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1400530263149_178670_7862" name="creates" type="_17_0_5_1_7b3022e_1396643659668_468327_4047" association="_17_0_5_1_7b3022e_1400530263149_982242_7861">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407451343330_828277_9246"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408551535476_43579_6741" name="step in" type="_17_0_5_1_7b3022e_1398294216796_903071_6610" association="_17_0_5_1_3ba019e_1408551535475_844052_6739">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398371476806_199814_7075"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408551535475_957719_6740" name="step" aggregation="composite" type="_17_0_5_1_7b3022e_1398294216796_903071_6610" association="_17_0_5_1_3ba019e_1408551535475_844052_6739">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398371476806_855515_7074"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1398377277902_140494_7978">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398377277902_860452_7979"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398377277902_200268_7980"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1398449037093_752457_4615">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398449037094_200973_4616"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398449037094_388471_4617"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_7b3022e_1396735421849_686653_7681" name="Quantities and units">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398808729838_576574_5225" name="Time point">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1398808758766_454143_5541" general="_17_0_5_1_7b3022e_1398808729954_908705_5420"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398808729920_445056_5379" name="Probability Metric">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1398808761478_876_5544" general="_17_0_5_1_7b3022e_1398808729954_908705_5420"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398808729938_982899_5400" name="Count">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1398808764614_384736_5548" general="_17_0_5_1_7b3022e_1398808729954_908705_5420"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398808729954_908705_5420" name="Quantity">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1398808756287_430072_5538" general="_17_0_5_1_7b3022e_1396738507704_337422_8835"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006056_689582_4409" general="_17_0_5_1_7b3022e_1396738507704_337422_8835"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_18_0_2_3ba019e_1420948660055_184523_5274" name="value" type="_18_0_2_3ba019e_1420949520069_6927_5333"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407440505391_715735_5650" name="Metric">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407440509842_217642_5672" general="_17_0_5_1_7b3022e_1398808729954_908705_5420"/>
+</packagedElement>
+<packagedElement xmi:type="uml:DataType" xmi:id="_18_0_2_3ba019e_1420949520069_6927_5333" name="Number"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398546578631_480785_7098" name="Role">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006042_418443_4382" general="_17_0_5_1_7b3022e_1396817172125_738530_5334"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1396735872201_799708_7989" name="role of" type="_17_0_5_1_7b3022e_1396738507704_337422_8835" association="_17_0_5_1_7b3022e_1396735872201_882247_7988"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407440739261_127461_5821" type="_17_0_5_1_3ba019e_1407439004187_898905_4218" association="_17_0_5_1_3ba019e_1407440739260_546089_5819"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398810200142_339334_6038" name="Individual" isLeaf="true">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407962965867_833317_6163" body="A particular thing {Endurant}">
+<annotatedElement xmi:idref="_17_0_5_1_7b3022e_1398810200142_339334_6038"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1398810226254_352807_6061" general="_17_0_5_1_7b3022e_1396643659668_468327_4047"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1400505093427_253129_4793" name="State">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407446966563_973373_8294" body="A static situation - A particular configuration of entities that is static for a time period,  including spacial and logical connections between those things {Snapshot of a Perdurant}">
+<annotatedElement xmi:idref="_17_0_5_1_7b3022e_1400505093427_253129_4793"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1400505102643_187346_4815" general="_17_0_5_1_7b3022e_1396647291186_698320_5704"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1400505389818_883491_4872" name="state of" type="_17_0_5_1_7b3022e_1396643659668_468327_4047" association="_17_0_5_1_7b3022e_1400505389818_513417_4871"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1400505389818_513417_4871">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1400505389818_883491_4872"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1400505389818_410708_4873"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398820303774_882324_7571" name="Actor">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1398820329231_301812_7593" general="_17_0_5_1_7b3022e_1398810200142_339334_6038"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398294235459_158435_6656" name="performs" type="_17_0_5_1_7b3022e_1400516294673_53853_5752" association="_17_0_5_1_7b3022e_1398294235459_34238_6655"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407969991522_748457_7019" name="has capability" type="_17_0_5_1_3ba019e_1407969979857_105661_6994" association="_17_0_5_1_3ba019e_1407969991522_71577_7018"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1398294235459_34238_6655">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398294235459_158435_6656"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398294235459_920209_6657"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1400516294673_53853_5752" name="Act">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1400516301274_37274_5774" general="_17_0_5_1_7b3022e_1398294216796_903071_6610"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398294235459_920209_6657" name="performed by" type="_17_0_5_1_7b3022e_1398820303774_882324_7571" association="_17_0_5_1_7b3022e_1398294235459_34238_6655"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407970146147_554647_7343" name="requires capability" type="_17_0_5_1_3ba019e_1407969979857_105661_6994" association="_17_0_5_1_3ba019e_1407970146147_967654_7342">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398377277902_860452_7979"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1400530263149_982242_7861">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1400530263149_178670_7862"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1400530263150_230417_7863"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_7b3022e_1402580005530_980855_5365" name="Timeframe">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004196_420186_4234" name="Past Situation">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006017_15558_4328" general="_17_0_5_1_7b3022e_1396647291186_698320_5704"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1402580047001_488579_5490" general="_17_0_5_1_7b3022e_1396647291186_698320_5704"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004195_602848_4233" name="Future Situation">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407454764700_407836_12919" body="A situation that has not yet started">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004195_602848_4233"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006017_255296_4327" general="_17_0_5_1_7b3022e_1396647291186_698320_5704"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1402327588996_16317_9813" name="likelihood" type="_17_0_5_1_7b3022e_1398808729920_445056_5379"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004197_904558_4235" name="Current Situation">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006017_859977_4329" general="_17_0_5_1_7b3022e_1396647291186_698320_5704"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1402580044321_129565_5486" general="_17_0_5_1_7b3022e_1396647291186_698320_5704"/>
+</packagedElement>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_3ba019e_1407440130858_735741_5156" name="Templates">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004204_145382_4251" name="Template">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006261_561813_4717" body="A pattern, configuration or type of things that may exist">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004204_145382_4251"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006068_297888_4437" general="_17_0_5_1_7b3022e_1396647291186_698320_5704"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407445690089_35520_7854" general="_17_0_5_1_7b3022e_1396817172125_738530_5334"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407440892512_128035_6056" name="categorizes" type="_17_0_5_1_7b3022e_1396647291186_698320_5704" association="_17_0_5_1_3ba019e_1407440892512_28806_6055">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1396817357749_905352_5466"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407965656081_500946_6208" aggregation="composite" type="_17_0_5_1_3ba019e_1407965526281_637535_6178" association="_17_0_5_1_3ba019e_1407965656081_186350_6207">
+<redefinedProperty xmi:idref="_17_0_5_1_3ba019e_1407440748531_344803_5848"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407440892512_28806_6055">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407440892512_128035_6056"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407440892512_347666_6057"/>
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407859671225_17995_3954" body="The relationship between a pattern and a more specific pattern or an actuality.">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407440892512_28806_6055"/>
+</ownedComment>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004204_477928_4252" name="Actuality">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006262_659414_4718" body="An individual situation that actually exists or will exist">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004204_477928_4252"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006069_775718_4440" general="_17_0_5_1_7b3022e_1396647291186_698320_5704"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408549782249_590895_6530" name="has sighting" type="_17_0_5_1_3ba019e_1408488544584_778847_6001" association="_17_0_5_1_3ba019e_1408549782248_994174_6528"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004187_898905_4218" name="Involvement">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407859644514_255672_3953" body="Involvement (may also be called a role binding) is the way something is relevant to a situation with respect to some role the &quot;something&quot; is playing in that situation. The involved individual may or may not be bound (known)..Involvement also represents an end of a relation.&#10;">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004187_898905_4218"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006056_866770_4408" general="_17_0_5_1_7b3022e_1396738507704_337422_8835"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407440725241_826279_5787" name="involves" type="_17_0_5_1_7b3022e_1396738507704_337422_8835" association="_17_0_5_1_3ba019e_1407440725241_46211_5786"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407440739260_669383_5820" name="playing role" type="_17_0_5_1_7b3022e_1398546578631_480785_7098" association="_17_0_5_1_3ba019e_1407440739260_546089_5819"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407440748530_147220_5847" name="involved in" type="_17_0_5_1_7b3022e_1396647291186_698320_5704" association="_17_0_5_1_3ba019e_1407440748529_906150_5846"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407440748529_906150_5846">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407440748530_147220_5847"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407440748531_344803_5848"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407440725241_46211_5786">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407440725241_826279_5787"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407440725242_329910_5788"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407440739260_546089_5819">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407440739260_669383_5820"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407440739261_127461_5821"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407965526281_637535_6178" name="Template Involvement">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407965795802_678862_6228" body="Template Involvement defines a possible involvement.&#10;&#10;A likelihood of 1 indicates a required involvement.&#10;&#10;quantification defines how many of the role's population may be involved - from none to all.">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407965526281_637535_6178"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407965559566_52047_6200" general="_17_0_5_1_3ba019e_1407439004187_898905_4218"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407860690683_544917_4027" name="quantification" type="_17_0_5_1_3ba019e_1407967004584_742025_6325">
+<ownedComment xmi:type="uml:Comment" xmi:id="_18_0_2_3ba019e_1418664047699_841771_6664" body="The range of individuals covered by a rule or generic statement">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407860690683_544917_4027"/>
+</ownedComment>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407965656081_555566_6209" type="_17_0_5_1_3ba019e_1407439004204_145382_4251" association="_17_0_5_1_3ba019e_1407965656081_186350_6207">
+<redefinedProperty xmi:idref="_17_0_5_1_3ba019e_1407440748530_147220_5847"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407967466047_715898_6356" name="likelihood" type="_17_0_5_1_7b3022e_1398808729920_445056_5379"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407965656081_186350_6207">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407965656081_500946_6208"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407965656081_555566_6209"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Enumeration" xmi:id="_17_0_5_1_3ba019e_1407967004584_742025_6325" name="Quantification">
+<ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_17_0_5_1_3ba019e_1407967072552_782874_6352" name="none">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407968247654_398465_6382" body="No entities may play this role in this situation">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407967072552_782874_6352"/>
+</ownedComment>
+</ownedLiteral>
+<ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_17_0_5_1_3ba019e_1407967014937_691591_6344" name="one">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407968230826_709604_6381" body="One entity">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407967014937_691591_6344"/>
+</ownedComment>
+</ownedLiteral>
+<ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_17_0_5_1_3ba019e_1407967040299_56913_6346" name="some">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407968226231_61976_6380" body="Some entities that may play the role">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407967040299_56913_6346"/>
+</ownedComment>
+</ownedLiteral>
+<ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_17_0_5_1_3ba019e_1407967054804_251557_6348" name="most">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407968203419_622421_6379" body="Most entities that may play the role">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407967054804_251557_6348"/>
+</ownedComment>
+</ownedLiteral>
+<ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_17_0_5_1_3ba019e_1407967061834_934066_6350" name="all">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407968198174_446282_6378" body="All entities that may play the role">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407967061834_934066_6350"/>
+</ownedComment>
+</ownedLiteral>
+<ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_17_0_5_1_3ba019e_1407967911440_163662_6367" name="specified">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407968180334_941051_6377" body="Specific (specified) involved entities">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407967911440_163662_6367"/>
+</ownedComment>
+</ownedLiteral>
+</packagedElement>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_3ba019e_1407441063330_788271_6105" name="Entity kinds">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004179_25254_4204" name="Organization">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006084_7619_4478" general="_17_0_5_1_7b3022e_1398820303774_882324_7571"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004179_501334_4205" name="Person">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006084_106939_4479" general="_17_0_5_1_3ba019e_1407439004180_411370_4206"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006084_633915_4480" general="_17_0_5_1_7b3022e_1398820303774_882324_7571"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004181_405165_4208" name="Thing">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006085_358734_4482" general="_17_0_5_1_3ba019e_1407439004180_411370_4206"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004181_524572_4207" name="Place">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006084_178987_4481" general="_17_0_5_1_3ba019e_1407439004180_411370_4206"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004180_411370_4206" name="Physical Entity">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006085_231254_4483" body="A thing that has mass and takes up space including people, places and things.">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004180_411370_4206"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006068_746979_4438" general="_17_0_5_1_7b3022e_1398810200142_339334_6038"/>
+</packagedElement>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004189_927664_4223" name="Relationship">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006126_67963_4560" body="A connection between other entities">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004189_927664_4223"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006068_70545_4439" general="_17_0_5_1_7b3022e_1396647291186_698320_5704"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407441993913_827118_6577">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407441993913_406942_6578"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407441993914_361848_6579"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407451343330_74105_9245">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407451343330_828277_9246"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407451343330_730152_9247"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1396643659668_468327_4047" name="Entity">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407859841735_3623_3968" body="Any identifiable person, place, thing, agreement or situation">
+<annotatedElement xmi:idref="_17_0_5_1_7b3022e_1396643659668_468327_4047"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1396902328306_259574_16101" general="_17_0_5_1_7b3022e_1396738507704_337422_8835"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398377277902_200268_7980" name="used by" type="_17_0_5_1_7b3022e_1398294216796_903071_6610" association="_17_0_5_1_7b3022e_1398377277902_140494_7978"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398371476806_199814_7075" name="is part of" type="_17_0_5_1_7b3022e_1396643659668_468327_4047" association="_17_0_5_1_7b3022e_1398371476806_859112_7073"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398371476806_855515_7074" name="has part" aggregation="composite" type="_17_0_5_1_7b3022e_1396643659668_468327_4047" association="_17_0_5_1_7b3022e_1398371476806_859112_7073"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398379462317_769008_8161" name="transfered by" type="_17_0_5_1_7b3022e_1398371871274_325203_7226" association="_17_0_5_1_7b3022e_1398379462317_352622_8159"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1400505389818_410708_4873" name="has state" type="_17_0_5_1_7b3022e_1400505093427_253129_4793" association="_17_0_5_1_7b3022e_1400505389818_513417_4871"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1400530263150_230417_7863" name="created by" type="_17_0_5_1_7b3022e_1398294216796_903071_6610" association="_17_0_5_1_7b3022e_1400530263149_982242_7861">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407451343330_730152_9247"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1402322068744_257467_5128" name="possessed by" type="_17_0_5_1_7b3022e_1400513593082_152185_5549" association="_17_0_5_1_7b3022e_1402322068744_674758_5126"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1402589046098_469185_6143" name="has observation" type="_17_0_5_1_7b3022e_1400683217455_550622_5555" association="_17_0_5_1_7b3022e_1402589046098_19410_6141"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408465206913_98172_6923" name="is related to" type="_17_0_5_1_7b3022e_1396643659668_468327_4047" association="_17_0_5_1_3ba019e_1408465206913_967609_6922"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407451343330_730152_9247" name="impacted by" type="_17_0_5_1_7b3022e_1396647291186_698320_5704" association="_17_0_5_1_3ba019e_1407451343330_74105_9245">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1408465206914_970238_6924"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408662345207_750073_4966" name="required by" type="_17_0_5_1_3ba019e_1407877662057_782630_4220" association="_17_0_5_1_3ba019e_1408662345207_66437_4964">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398377277902_200268_7980"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1410547565206_58833_5895" name="identified by" type="_17_0_5_1_3ba019e_1410547553066_192252_5872"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_18_0_2_3ba019e_1420152083902_774239_5092" name="has name" type="_18_0_2_3ba019e_1420152037746_37013_5064"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1398371476806_859112_7073">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398371476806_855515_7074"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398371476806_199814_7075"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_3ba019e_1407960318412_69485_4170" name="Process">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407877662057_782630_4220" name="Modus Operandi">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407960860106_610493_4950" body="A process is a template for occurances that results in a situation.">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407877662057_782630_4220"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407877575954_540428_4215" general="_17_0_5_1_7b3022e_1398294216796_903071_6610"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407879299046_387628_4350" general="_17_0_5_1_3ba019e_1407439004204_145382_4251"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408662345207_917390_4965" name="requires" type="_17_0_5_1_7b3022e_1396643659668_468327_4047" association="_17_0_5_1_3ba019e_1408662345207_66437_4964">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398377277902_860452_7979"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407876845478_265504_4108" name="Plan">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407960996337_123502_5053" body="A plan is a process that supports a stakeholders objective.">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407876845478_265504_4108"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407877707088_225484_4242" general="_17_0_5_1_3ba019e_1407877662057_782630_4220"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1408567938284_601159_5609" general="_17_0_5_1_7b3022e_1400516294673_53853_5752"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407876941118_89036_4155" name="supports objective" type="_17_0_5_1_3ba019e_1407439004199_611439_4241" association="_17_0_5_1_3ba019e_1407876941118_369583_4154"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408570159727_134746_6125" name="requires capability" type="_17_0_5_1_3ba019e_1408570109227_550509_6095" association="_17_0_5_1_3ba019e_1408570159726_18676_6123">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407970146147_554647_7343"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407876941118_369583_4154">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407876941118_89036_4155"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407876941119_839808_4156"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1408662345207_66437_4964">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1408662345207_917390_4965"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1408662345207_750073_4966"/>
+</packagedElement>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407969991522_71577_7018">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407969991522_748457_7019"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407969991522_385898_7020"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407970146147_967654_7342">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407970146147_554647_7343"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407970146147_7325_7344"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407970400519_638064_7537" general="_17_0_5_1_7b3022e_1398377277902_140494_7978"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1408465206913_967609_6922">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1408465206913_98172_6923"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1408465206914_970238_6924"/>
+<ownedEnd xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408465206914_970238_6924" type="_17_0_5_1_7b3022e_1396643659668_468327_4047" association="_17_0_5_1_3ba019e_1408465206913_967609_6922"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_3ba019e_1408480683409_896780_4180" name="Rules">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1416259508882_236396_5249" name="Expression"/>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1416259582594_173023_5273" name="Rule">
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1416259557888_217199_5269" name="condition" type="_17_0_5_1_3ba019e_1416259508882_236396_5249">
+<lowerValue xmi:type="uml:LiteralInteger" xmi:id="_17_0_5_1_3ba019e_1416259927510_91918_5326"/>
+</ownedAttribute>
+</packagedElement>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004164_763407_4196" name="Context">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006055_476723_4404" body="A grouping of concepts contextualized in some way and with some common attributes and/or relations.&#10;">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004164_763407_4196"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006042_963758_4381" general="_17_0_5_1_7b3022e_1396738507704_337422_8835"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006055_161069_4406" name="generalizes" type="_17_0_5_1_3ba019e_1407439004164_763407_4196" association="_17_0_5_1_3ba019e_1407439004174_840790_4199">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006299_809337_4766" body="The more general role of a generalization.">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439006055_161069_4406"/>
+</ownedComment>
+<lowerValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006299_325687_4767"/>
+<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006299_582813_4765" value="*"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006056_162665_4407" name="specializes" type="_17_0_5_1_3ba019e_1407439004164_763407_4196" association="_17_0_5_1_3ba019e_1407439004174_840790_4199">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006299_739967_4769" body="The more specific role of a generalization.">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439006056_162665_4407"/>
+</ownedComment>
+<lowerValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006299_765350_4770"/>
+<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006299_688054_4768" value="*"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407444653321_443423_7803" name="contextualizes" type="_17_0_5_1_7b3022e_1396738507704_337422_8835" association="_17_0_5_1_3ba019e_1407444653321_119650_7802"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407444653321_119650_7802">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407444653321_443423_7803"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407444653321_656129_7804"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407439004174_840790_4199" name="Generalization">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407439006055_161069_4406"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407439006056_162665_4407"/>
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006068_183692_4436" body="The set of instances contextualized by the specialized context is a subset of the set of instances contextualized by the generalized context.">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004174_840790_4199"/>
+</ownedComment>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1408551535475_844052_6739">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1408551535475_957719_6740"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1408551535476_43579_6741"/>
+</packagedElement>
+<packagedElement xmi:type="uml:DataType" xmi:id="_17_0_5_1_3ba019e_1410547553066_192252_5872" name="Identifier">
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1410547565206_619360_5896" name="identifies" type="_17_0_5_1_7b3022e_1396643659668_468327_4047"/>
+</packagedElement>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_3ba019e_1407438981902_253775_4192" name="In progress">
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_3ba019e_1407439135608_598462_8893" name="Diagrams"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_3ba019e_1407440991858_478193_6084" name="RiskThreat">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004192_140695_4227" name="Danger">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006215_542170_4634" body="A danger is a future occurance that effects a dangerous situation. A threat is the result of the potential behavior of a danger source (intentional or unintentional)">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004192_140695_4227"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006081_179154_4467" general="_17_0_5_1_7b3022e_1398294216796_903071_6610"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006148_706203_4591" general="_17_0_5_1_3ba019e_1407439004195_602848_4233"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006215_560586_4635" name="effect of danger" type="_17_0_5_1_3ba019e_1407439004202_750241_4245" association="_17_0_5_1_3ba019e_1407439004192_264798_4228">
+<lowerValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006331_366148_4806"/>
+<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006331_901678_4805" value="*"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006216_124691_4636" name="source of danger" type="_17_0_5_1_3ba019e_1407439004202_997613_4246" association="_17_0_5_1_3ba019e_1407439004201_768758_4244">
+<lowerValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006331_537974_4808"/>
+<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006331_562436_4807" value="*"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407439004192_264798_4228">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407439006215_560586_4635"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407439006216_863307_4637"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407439004201_768758_4244">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407439006216_124691_4636"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407439006231_574508_4671"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004202_997613_4246" name="Danger Source">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407449754880_847486_9136" body="The source of any danger - natural or intentional">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004202_997613_4246"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407449345089_237953_9078" general="_17_0_5_1_7b3022e_1396643659668_468327_4047"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006231_574508_4671" name="threatens" type="_17_0_5_1_3ba019e_1407439004192_140695_4227" association="_17_0_5_1_3ba019e_1407439004201_768758_4244"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004202_750241_4245" name="Dangerous Situation">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006246_783111_4693" body="Any future situation having detrimental consequences">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004202_750241_4245"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006217_662358_4641" general="_17_0_5_1_3ba019e_1407439004195_602848_4233"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006216_863307_4637" name="threat" type="_17_0_5_1_3ba019e_1407439004192_140695_4227" association="_17_0_5_1_3ba019e_1407439004192_264798_4228">
+<lowerValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407451775005_592833_10541"/>
+<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407451775005_918291_10542" value="*"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006218_456529_4643" name="consequence" type="_17_0_5_1_3ba019e_1407439004201_844828_4243" association="_17_0_5_1_3ba019e_1407439004199_10927_4240">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407441993913_406942_6578"/>
+<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006332_540707_4811" value="*"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004222_946325_4256" name="Opportunity">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006277_479762_4744" body="Any future situation having beneficial consequences">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004222_946325_4256"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006217_145351_4640" general="_17_0_5_1_3ba019e_1407439004195_602848_4233"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006277_804805_4745" name="consequence" type="_17_0_5_1_3ba019e_1407439004200_864206_4242" association="_17_0_5_1_3ba019e_1407439004223_477850_4257">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407441993913_406942_6578"/>
+<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006354_310684_4828" value="*"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407439004223_477850_4257">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407439006277_804805_4745"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407439006231_217208_4668"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407449400778_604541_9084" name="Intentional Threat">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407449716228_751678_9134" body="A danger that is the intent of a threat actor">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407449400778_604541_9084"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407449420706_161955_9106" general="_17_0_5_1_3ba019e_1407439004192_140695_4227"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407449431753_334426_9113" name="perpetrator" type="_17_0_5_1_3ba019e_1407447767193_780154_8908" association="_17_0_5_1_3ba019e_1407449431753_700584_9111">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398294235459_920209_6657"/>
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407439006216_124691_4636"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407447767193_780154_8908" name="Threat Actor">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407449736745_709677_9135" body="An actor responsible for an intentional threat">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407447767193_780154_8908"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407447787393_292264_8930" general="_17_0_5_1_3ba019e_1407439004202_997613_4246"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407447804049_933711_8937" general="_17_0_5_1_7b3022e_1398820303774_882324_7571"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407449431753_699349_9112" name="threatens" type="_17_0_5_1_3ba019e_1407449400778_604541_9084" association="_17_0_5_1_3ba019e_1407449431753_700584_9111">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407439006231_574508_4671"/>
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398294235459_158435_6656"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1409849424930_826911_6405" name="perpetrates" type="_17_0_5_1_3ba019e_1407453282336_95729_12199" association="_17_0_5_1_3ba019e_1409849424929_682129_6403"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407449431753_700584_9111">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407449431753_699349_9112"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407449431753_334426_9113"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407452267066_776903_11252" name="Mitigation">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407452326514_168971_11883" general="_17_0_5_1_7b3022e_1400516294673_53853_5752"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407452412571_930875_11911" type="_17_0_5_1_3ba019e_1407452381122_290271_11885" association="_17_0_5_1_3ba019e_1407452412570_217451_11909">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398294235459_920209_6657"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407452650386_42495_11955" name="prevents" type="_17_0_5_1_7b3022e_1396647291186_698320_5704" association="_17_0_5_1_3ba019e_1407452650386_545254_11954"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407452843781_984531_11988" name="degree of prevention" type="_17_0_5_1_3ba019e_1407440505391_715735_5650"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407452650386_545254_11954">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407452650386_42495_11955"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407452650387_521196_11956"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407452381122_290271_11885" name="Mitigation Actor">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407452886210_378596_12013" general="_17_0_5_1_7b3022e_1398820303774_882324_7571"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407452412571_889169_11910" name="performs mitigation" type="_17_0_5_1_3ba019e_1407452267066_776903_11252" association="_17_0_5_1_3ba019e_1407452412570_217451_11909">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398294235459_158435_6656"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407452412570_217451_11909">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407452412571_889169_11910"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407452412571_930875_11911"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407453282336_95729_12199" name="Incident">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407454803355_828364_12920" body="A detrimental situation that is happening or has happened.">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407453282336_95729_12199"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407453329073_61975_12327" general="_17_0_5_1_7b3022e_1398294216796_903071_6610"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407453699426_710774_12482" name="detrimental consequence" type="_17_0_5_1_3ba019e_1407439004201_844828_4243" association="_17_0_5_1_3ba019e_1407453699426_357173_12481">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407441993913_406942_6578"/>
+<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407453703611_489320_12499" value="*"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1409605582273_403116_6664" name="damages" type="_17_0_5_1_3ba019e_1409605481272_952101_6632" association="_17_0_5_1_3ba019e_1409605582272_125394_6663">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407451343330_828277_9246"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1409849424929_95813_6404" name="perpetrated by" type="_17_0_5_1_3ba019e_1407447767193_780154_8908" association="_17_0_5_1_3ba019e_1409849424929_682129_6403"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407453699426_357173_12481">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407453699426_710774_12482"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407453699427_516561_12483"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407453982548_728391_12545" name="Vulnerability">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407454065883_321652_12657" general="_17_0_5_1_7b3022e_1396647291186_698320_5704"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407454050634_959442_12620" name="impacts" type="_17_0_5_1_3ba019e_1407451311746_840454_9221" association="_17_0_5_1_3ba019e_1407454050634_436468_12619">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407451343330_828277_9246"/>
+<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407454164053_631335_12720" value="*"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407454360347_401340_12848" name="used by" type="_17_0_5_1_3ba019e_1407454280322_834423_12732" association="_17_0_5_1_3ba019e_1407454360346_388513_12846">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398377277902_200268_7980"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408569549371_904687_6069" name="capability"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407454050634_436468_12619">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407454050634_959442_12620"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407454050634_778999_12621"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1408378174777_647047_6522" name="Indicator">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1408487893950_273534_5456" body="An indicator is a situation template, sightings of which suggests further study or action">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1408378174777_647047_6522"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1408378312592_862103_6866" general="_17_0_5_1_3ba019e_1407439004204_145382_4251"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408488676158_476511_6071" name="has sighting" type="_17_0_5_1_3ba019e_1408488544584_778847_6001">
+<redefinedProperty xmi:idref="_17_0_5_1_3ba019e_1407440892512_128035_6056"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408549505995_814970_6489" name="indicates"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1408488544584_778847_6001" name="Sighting">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1408488593679_358094_6042" general="_17_0_5_1_3ba019e_1407439004204_477928_4252"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1408566464354_252712_4690" general="_17_0_5_1_7b3022e_1400683217455_550622_5555"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408488676158_790391_6070" name="matches" type="_17_0_5_1_3ba019e_1408378174777_647047_6522">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407440892512_347666_6057"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408549782249_396562_6529" name="is edvidence for" type="_17_0_5_1_3ba019e_1407439004204_477928_4252" association="_17_0_5_1_3ba019e_1408549782248_994174_6528"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1408549782248_994174_6528">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1408549782249_396562_6529"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1408549782249_590895_6530"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_3ba019e_1408566790913_944966_4750" name="Behavior">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1408567899411_519296_5584" name="Modus Operandi">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1408567916201_335840_5606" general="_17_0_5_1_3ba019e_1407876845478_265504_4108"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1408570109227_550509_6095" name="Capability to enact a plan">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1408570135228_542594_6117" general="_17_0_5_1_3ba019e_1407969979857_105661_6994"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408570159727_525913_6124" name="can execute plan" type="_17_0_5_1_3ba019e_1407876845478_265504_4108" association="_17_0_5_1_3ba019e_1408570159726_18676_6123">
+<redefinedProperty xmi:idref="_17_0_5_1_3ba019e_1407970146147_7325_7344"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1408570159726_18676_6123">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1408570159727_525913_6124"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1408570159727_134746_6125"/>
+</packagedElement>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407454280322_834423_12732" name="Exploit">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407454304329_984590_12773" general="_17_0_5_1_7b3022e_1400516294673_53853_5752"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407454360347_522011_12847" name="exploits" type="_17_0_5_1_3ba019e_1407453982548_728391_12545" association="_17_0_5_1_3ba019e_1407454360346_388513_12846">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398377277902_860452_7979"/>
+<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407454400862_698806_12872" value="*"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1408570416764_217538_6160" name="uses capability">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407970146147_554647_7343"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407454360346_388513_12846">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407454360347_522011_12847"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407454360347_401340_12848"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1409605582272_125394_6663">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1409605582273_403116_6664"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1409605582273_178377_6665"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1409605481272_952101_6632" name="Victim">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1409605496567_61057_6654" general="_17_0_5_1_7b3022e_1398820303774_882324_7571"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1409605582273_178377_6665" name="damaged by" type="_17_0_5_1_3ba019e_1407453282336_95729_12199" association="_17_0_5_1_3ba019e_1409605582272_125394_6663">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407451343330_730152_9247"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1409849424929_682129_6403">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1409849424929_95813_6404"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1409849424930_826911_6405"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1416254227295_454895_5022" name="Hazard">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1416254237709_775405_5044" general="_17_0_5_1_3ba019e_1407439004192_140695_4227"/>
+</packagedElement>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_3ba019e_1407441726730_720333_6353" name="Concept Library">
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_7b3022e_1402321966573_132346_4710" name="Possession">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398371871274_325203_7226" name="Transfer">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1398371883943_213199_7248" general="_17_0_5_1_7b3022e_1398294216796_903071_6610"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398379477197_732939_8205" name="transfer from" type="_17_0_5_1_7b3022e_1400513593082_152185_5549" association="_17_0_5_1_7b3022e_1398379477197_266769_8204"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398379490270_526345_8248" name="transfer to" type="_17_0_5_1_7b3022e_1400513593082_152185_5549" association="_17_0_5_1_7b3022e_1398379490270_436476_8247"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398379462317_599286_8160" name="transfers" type="_17_0_5_1_7b3022e_1396643659668_468327_4047" association="_17_0_5_1_7b3022e_1398379462317_352622_8159">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398377277902_860452_7979"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1398379462317_352622_8159">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398379462317_599286_8160"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398379462317_769008_8161"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1398379490270_436476_8247">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398379490270_526345_8248"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398379490270_752040_8249"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1398379477197_266769_8204">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398379477197_732939_8205"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398379477197_180983_8206"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1400513593082_152185_5549" name="Possessor">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1400530058700_315346_7856" general="_17_0_5_1_7b3022e_1398546578631_480785_7098"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398379477197_180983_8206" type="_17_0_5_1_7b3022e_1398371871274_325203_7226" association="_17_0_5_1_7b3022e_1398379477197_266769_8204"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398379490270_752040_8249" type="_17_0_5_1_7b3022e_1398371871274_325203_7226" association="_17_0_5_1_7b3022e_1398379490270_436476_8247"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1402322068744_664349_5127" name="possesses" type="_17_0_5_1_7b3022e_1396643659668_468327_4047" association="_17_0_5_1_7b3022e_1402322068744_674758_5126"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1402322068744_674758_5126">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1402322068744_664349_5127"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1402322068744_257467_5128"/>
+</packagedElement>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_7b3022e_1398543267655_95663_5770" name="Information">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398371288347_883883_7044" name="Information Store">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1400513359841_43533_5526" general="_17_0_5_1_7b3022e_1398372106040_547030_7295"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398293735973_309772_6480" name="Information Object">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1398373741306_811682_7664" general="_17_0_5_1_7b3022e_1396643659668_468327_4047"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398293780852_476202_6512" name="in object" type="_17_0_5_1_7b3022e_1398372106040_547030_7295" association="_17_0_5_1_7b3022e_1398293780852_343412_6510">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398371476806_199814_7075"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398811452454_321344_6997" name="in collection" type="_17_0_5_1_7b3022e_1398447162869_280942_4254" association="_17_0_5_1_7b3022e_1398811452454_959587_6995">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398371476806_199814_7075"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1402608854851_175631_6588" type="_17_0_5_1_7b3022e_1398373450673_596320_7537" association="_17_0_5_1_7b3022e_1402608854850_86756_6586"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_18_0_2_3ba019e_1420149152223_276214_4901" name="defines" type="_17_0_5_1_7b3022e_1396738507704_337422_8835" association="_18_0_2_3ba019e_1420149152223_94730_4900"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398373450673_596320_7537" name="Information Action">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1398373464991_952327_7559" general="_17_0_5_1_7b3022e_1400516294673_53853_5752"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1402608854850_345092_6587" type="_17_0_5_1_7b3022e_1398293735973_309772_6480" association="_17_0_5_1_7b3022e_1402608854850_86756_6586"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398447162869_280942_4254" name="Collection">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1398447235884_739383_4279" general="_17_0_5_1_7b3022e_1398293735973_309772_6480"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1398893325936_68029_5426" general="_17_0_5_1_7b3022e_1400513593082_152185_5549"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398811452454_895506_6996" name="has item" type="_17_0_5_1_7b3022e_1398293735973_309772_6480" association="_17_0_5_1_7b3022e_1398811452454_959587_6995">
+<redefinedProperty xmi:idref="_17_0_5_1_7b3022e_1398371476806_855515_7074"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398372106040_547030_7295" name="Structured Information Object">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1398372121187_780715_7317" general="_17_0_5_1_7b3022e_1398293735973_309772_6480"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1398293780852_47219_6511" name="contains object" type="_17_0_5_1_7b3022e_1398293735973_309772_6480" association="_17_0_5_1_7b3022e_1398293780852_343412_6510">
+<redefinedProperty xmi:idref="_17_0_5_1_7b3022e_1398371476806_855515_7074"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1398447984181_687339_4384" name="Query">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1398447990556_507471_4406" general="_17_0_5_1_7b3022e_1398373450673_596320_7537"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1398293780852_343412_6510">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398293780852_47219_6511"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398293780852_476202_6512"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1398811452454_959587_6995">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398811452454_895506_6996"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1398811452454_321344_6997"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1400514797410_126109_5584" name="Information Transfer">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1400514807529_846088_5606" general="_17_0_5_1_7b3022e_1398371871274_325203_7226"/>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1400514810649_234858_5609" general="_17_0_5_1_7b3022e_1398373450673_596320_7537"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1402608854850_86756_6586">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1402608854850_345092_6587"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1402608854851_175631_6588"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1410557023888_392465_4845" name="Description">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1410557042577_382825_4867" general="_17_0_5_1_7b3022e_1398293735973_309772_6480"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1410557065832_184380_4873" name="describes" type="_17_0_5_1_7b3022e_1396738507704_337422_8835" association="_17_0_5_1_3ba019e_1410557065832_194080_4872"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1410557065832_194080_4872">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1410557065832_184380_4873"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1410557065833_365580_4874"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_18_0_2_3ba019e_1420131565110_629420_4858" name="Package">
+<generalization xmi:type="uml:Generalization" xmi:id="_18_0_2_3ba019e_1420131574876_382785_4881" general="_17_0_5_1_7b3022e_1398372106040_547030_7295"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_18_0_2_3ba019e_1420149152223_94730_4900" name="Definition">
+<memberEnd xmi:idref="_18_0_2_3ba019e_1420149152223_276214_4901"/>
+<memberEnd xmi:idref="_18_0_2_3ba019e_1420149152223_430450_4902"/>
+</packagedElement>
+<packagedElement xmi:type="uml:DataType" xmi:id="_18_0_2_3ba019e_1420152037746_37013_5064" name="Short description">
+<ownedAttribute xmi:type="uml:Property" xmi:id="_18_0_2_3ba019e_1420152037748_423785_5065" name="identifies" type="_17_0_5_1_7b3022e_1396643659668_468327_4047"/>
+</packagedElement>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_7b3022e_1400683168336_957971_5522" name="Observation">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1400683217455_550622_5555" name="Observation">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1400683246760_732498_5596" general="_17_0_5_1_7b3022e_1400516294673_53853_5752"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1400683339429_160430_5659" name="observed situation" type="_17_0_5_1_7b3022e_1396647291186_698320_5704" association="_17_0_5_1_7b3022e_1400683339429_135001_5658"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_7b3022e_1402589046098_623942_6142" name="observer" type="_17_0_5_1_7b3022e_1396643659668_468327_4047" association="_17_0_5_1_7b3022e_1402589046098_19410_6141"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1400683339429_135001_5658">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1400683339429_160430_5659"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1400683339429_949849_5660"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_7b3022e_1400684902888_290568_5975" name="Measurement">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_7b3022e_1400684910013_947644_5997" general="_17_0_5_1_7b3022e_1400683217455_550622_5555"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_7b3022e_1402589046098_19410_6141">
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1402589046098_623942_6142"/>
+<memberEnd xmi:idref="_17_0_5_1_7b3022e_1402589046098_469185_6143"/>
+</packagedElement>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_3ba019e_1407439973665_938070_5084" name="Intent">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004191_348666_4226" name="Consequence">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006145_304265_4584" body="outcome of a situation affecting objectives of a stakeholder.&#10;&#10;NOTE 1 An event can lead to a range of consequences.&#10;NOTE 2 A consequence can be certain or uncertain&#10;and can have positive or negative effects on objectives.&#10;NOTE 3 Consequences can be expressed qualitatively&#10;or quantitatively.&#10;NOTE 4 Initial consequences can escalate through&#10;knock-on effects.&#10;[ISO 73-2009]">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004191_348666_4226"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006017_760303_4324" general="_17_0_5_1_7b3022e_1396647291186_698320_5704"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006145_107660_4585" name="degree of affect" type="_17_0_5_1_3ba019e_1407440505391_715735_5650">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407450516313_124967_9169" body="A metric for how much the consequence affects the objective">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439006145_107660_4585"/>
+</ownedComment>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006146_963438_4587" name="desirability" type="_17_0_5_1_3ba019e_1407440505391_715735_5650">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407450556378_376224_9170" body="The desirability of the consequence as importance times degree of affect. May be positive or negative.">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439006146_963438_4587"/>
+</ownedComment>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006147_131287_4588" name="impact" type="_17_0_5_1_3ba019e_1407440505391_715735_5650">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407450615305_873489_9171" body="Impact = desirability * likelihood">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439006147_131287_4588"/>
+</ownedComment>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006147_83945_4589" name="affects" type="_17_0_5_1_3ba019e_1407439004199_611439_4241" association="_17_0_5_1_3ba019e_1407439004203_353108_4247">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006318_789434_4799" body="to act on; produce an effect or change in:">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439006147_83945_4589"/>
+</ownedComment>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407441993914_361848_6579" name="source" type="_17_0_5_1_7b3022e_1396647291186_698320_5704" association="_17_0_5_1_3ba019e_1407441993913_827118_6577">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398371476806_199814_7075"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407439004203_353108_4247">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407439006147_83945_4589"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407439006229_678898_4665"/>
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006246_835284_4694" body="The impact of consequences on objectives">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004203_353108_4247"/>
+</ownedComment>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004184_482913_4213" name="Intent">
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006097_929241_4511" name="intent of" type="_17_0_5_1_3ba019e_1407439004184_364207_4212" association="_17_0_5_1_3ba019e_1407439004185_747954_4214">
+<lowerValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006309_634105_4786"/>
+<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006309_860356_4785" value="*"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006098_211286_4512" name="importance" type="_17_0_5_1_3ba019e_1407440505391_715735_5650"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004184_364207_4212" name="Stakeholder">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407440409835_875190_5615" general="_17_0_5_1_7b3022e_1398820303774_882324_7571"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006085_426471_4486" name="has intent" aggregation="composite" type="_17_0_5_1_3ba019e_1407439004184_482913_4213" association="_17_0_5_1_3ba019e_1407439004185_747954_4214">
+<lowerValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006306_148444_4783"/>
+<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006306_778366_4782" value="*"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407439004185_747954_4214">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407439006085_426471_4486"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407439006097_929241_4511"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004199_611439_4241" name="Objective">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006086_688577_4489" general="_17_0_5_1_3ba019e_1407439004184_482913_4213"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006229_678898_4665" name="affected by" type="_17_0_5_1_3ba019e_1407439004191_348666_4226" association="_17_0_5_1_3ba019e_1407439004203_353108_4247">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006332_773329_4815" body="to act on; produce an effect or change in:">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439006229_678898_4665"/>
+</ownedComment>
+<lowerValue xmi:type="uml:LiteralInteger" xmi:id="_17_0_5_1_3ba019e_1407439006333_770654_4816"/>
+<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006332_163573_4814" value="*"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407876941119_839808_4156" name="plan for objective" type="_17_0_5_1_3ba019e_1407876845478_265504_4108" association="_17_0_5_1_3ba019e_1407876941118_369583_4154"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004200_864206_4242" name="Benefit">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006230_603006_4667" body="A consequence of a situation having positive desirability">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004200_864206_4242"/>
+</ownedComment>
+<ownedRule xmi:type="uml:Constraint" xmi:id="_17_0_5_1_3ba019e_1407439006230_622670_4666" name="beneficial">
+<constrainedElement xmi:idref="_17_0_5_1_3ba019e_1407439004200_864206_4242"/>
+<specification xmi:type="uml:OpaqueExpression" xmi:id="_17_0_5_1_3ba019e_1407439006334_548110_4817">
+<body>desirability positive</body>
+</specification>
+</ownedRule>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006126_330859_4562" general="_17_0_5_1_3ba019e_1407439004191_348666_4226"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006231_217208_4668" name="source" type="_17_0_5_1_3ba019e_1407439004222_946325_4256" association="_17_0_5_1_3ba019e_1407439004223_477850_4257">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407441993914_361848_6579"/>
+</ownedAttribute>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407439004201_844828_4243" name="Detriment">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407439006231_261277_4670" body="A consequence of a situation having negative desirability">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407439004201_844828_4243"/>
+</ownedComment>
+<ownedRule xmi:type="uml:Constraint" xmi:id="_17_0_5_1_3ba019e_1407439006231_577928_4669" name="risky">
+<constrainedElement xmi:idref="_17_0_5_1_3ba019e_1407439004201_844828_4243"/>
+<specification xmi:type="uml:OpaqueExpression" xmi:id="_17_0_5_1_3ba019e_1407439006334_103715_4818">
+<body>desirability  negative</body>
+</specification>
+</ownedRule>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407439006126_196100_4561" general="_17_0_5_1_3ba019e_1407439004191_348666_4226"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407439006217_123407_4642" name="source" type="_17_0_5_1_3ba019e_1407439004202_750241_4245" association="_17_0_5_1_3ba019e_1407439004199_10927_4240">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407441993914_361848_6579"/>
+<lowerValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006332_410024_4810"/>
+<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_5_1_3ba019e_1407439006331_86103_4809" value="*"/>
+</ownedAttribute>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407453699427_516561_12483" type="_17_0_5_1_3ba019e_1407453282336_95729_12199" association="_17_0_5_1_3ba019e_1407453699426_357173_12481"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Association" xmi:id="_17_0_5_1_3ba019e_1407439004199_10927_4240">
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407439006217_123407_4642"/>
+<memberEnd xmi:idref="_17_0_5_1_3ba019e_1407439006218_456529_4643"/>
+</packagedElement>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_3ba019e_1407451411470_433667_9274" name="Asset">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407451311746_840454_9221" name="Asset">
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407451536907_342223_9482" general="_17_0_5_1_7b3022e_1396643659668_468327_4047"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407454050634_778999_12621" name="has vunerability" type="_17_0_5_1_3ba019e_1407453982548_728391_12545" association="_17_0_5_1_3ba019e_1407454050634_436468_12619">
+<subsettedProperty xmi:idref="_17_0_5_1_3ba019e_1407451343330_730152_9247"/>
+</ownedAttribute>
+</packagedElement>
+</packagedElement>
+<packagedElement xmi:type="uml:Package" xmi:id="_17_0_5_1_3ba019e_1407969953352_1512_6942" name="Capability">
+<packagedElement xmi:type="uml:Class" xmi:id="_17_0_5_1_3ba019e_1407969979857_105661_6994" name="Capability">
+<ownedComment xmi:type="uml:Comment" xmi:id="_17_0_5_1_3ba019e_1407970529629_812271_7559" body="The ability to perform some act">
+<annotatedElement xmi:idref="_17_0_5_1_3ba019e_1407969979857_105661_6994"/>
+</ownedComment>
+<generalization xmi:type="uml:Generalization" xmi:id="_17_0_5_1_3ba019e_1407970042754_676660_7072" general="_17_0_5_1_7b3022e_1396643659668_468327_4047"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407969991522_385898_7020" name="capability of" type="_17_0_5_1_7b3022e_1398820303774_882324_7571" association="_17_0_5_1_3ba019e_1407969991522_71577_7018"/>
+<ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_5_1_3ba019e_1407970146147_7325_7344" name="enables" type="_17_0_5_1_7b3022e_1400516294673_53853_5752" association="_17_0_5_1_3ba019e_1407970146147_967654_7342">
+<subsettedProperty xmi:idref="_17_0_5_1_7b3022e_1398377277902_200268_7980"/>
+</ownedAttribute>
+</packagedElement>
+</packagedElement>
+</packagedElement>
+</packagedElement>
+</uml:Package>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407451919811_571923_10605_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_3ba019e_1407439004192_140695_4227" value="_17_0_5_1_3ba019e_1407439006148_702208_4592"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407451919811_571923_10605_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_3ba019e_1407439004192_140695_4227" value="_17_0_5_1_3ba019e_1407439006148_702208_4592"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407961890402_887983_6157_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_3ba019e_1407876845478_265504_4108" value="_17_0_5_1_3ba019e_1407960337744_968303_4171"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407961890402_887983_6157_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_3ba019e_1407876845478_265504_4108" value="_17_0_5_1_3ba019e_1407960337744_968303_4171"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1409606728028_729116_6981_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_3ba019e_1409605481272_952101_6632" value="_17_0_5_1_3ba019e_1409606682024_503494_6822"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1409606728028_729116_6981_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_3ba019e_1409605481272_952101_6632" value="_17_0_5_1_3ba019e_1409606682024_503494_6822"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407970049629_340524_7123_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_3ba019e_1407969979857_105661_6994" value="_17_0_5_1_3ba019e_1407969961077_700154_6943"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407970049629_340524_7123_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_3ba019e_1407969979857_105661_6994" value="_17_0_5_1_3ba019e_1407969961077_700154_6943"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407439006148_794218_4590_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_3ba019e_1407439004191_348666_4226" value="_17_0_5_1_3ba019e_1407439006127_453074_4563"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407439006148_794218_4590_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_3ba019e_1407439004191_348666_4226" value="_17_0_5_1_3ba019e_1407439006127_453074_4563"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407969897861_93264_6927_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_3ba019e_1407439004204_145382_4251" value="_17_0_5_1_3ba019e_1407441818362_227246_6388"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407969897861_93264_6927_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_3ba019e_1407439004204_145382_4251" value="_17_0_5_1_3ba019e_1407441818362_227246_6388"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_7b3022e_1396903059362_871310_16400application1_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_7b3022e_1396735566394_367231_7753" value="_17_0_5_1_7b3022e_1396735576265_81331_7754"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_7b3022e_1396903059362_871310_16400application1_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_7b3022e_1396735566394_367231_7753" value="_17_0_5_1_7b3022e_1396735576265_81331_7754"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407453205766_85470_12131_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_3ba019e_1407452267066_776903_11252" value="_17_0_5_1_3ba019e_1407452246337_346899_10611"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407453205766_85470_12131_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_3ba019e_1407452267066_776903_11252" value="_17_0_5_1_3ba019e_1407452246337_346899_10611"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_7b3022e_1396817187021_210362_5354_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_7b3022e_1396817172125_738530_5334" value="_17_0_5_1_7b3022e_1396735576265_81331_7754"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_7b3022e_1396817187021_210362_5354_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_7b3022e_1396817172125_738530_5334" value="_17_0_5_1_7b3022e_1396735576265_81331_7754"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407784569189_741950_4143_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_3ba019e_1407439004222_946325_4256" value="_17_0_5_1_3ba019e_1407439006263_400929_4723"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407784569189_741950_4143_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_3ba019e_1407439004222_946325_4256" value="_17_0_5_1_3ba019e_1407439006263_400929_4723"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1408659180633_368793_4252_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_3ba019e_1407454280322_834423_12732" value="_17_0_5_1_3ba019e_1407453998003_882633_12546"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1408659180633_368793_4252_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_3ba019e_1407454280322_834423_12732" value="_17_0_5_1_3ba019e_1407453998003_882633_12546"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_7b3022e_1396647330495_367003_5724_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_7b3022e_1396647291186_698320_5704" value="_17_0_5_1_7b3022e_1396738346135_985901_8602"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_7b3022e_1396647330495_367003_5724_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_7b3022e_1396647291186_698320_5704" value="_17_0_5_1_7b3022e_1396738346135_985901_8602"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1408659168491_172418_4195_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_3ba019e_1407453982548_728391_12545" value="_17_0_5_1_3ba019e_1407453998003_882633_12546"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1408659168491_172418_4195_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_3ba019e_1407453982548_728391_12545" value="_17_0_5_1_3ba019e_1407453998003_882633_12546"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407961888012_592988_6102_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_3ba019e_1407877662057_782630_4220" value="_17_0_5_1_3ba019e_1407960337744_968303_4171"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407961888012_592988_6102_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_3ba019e_1407877662057_782630_4220" value="_17_0_5_1_3ba019e_1407960337744_968303_4171"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407453299254_837265_12300_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_3ba019e_1407453282336_95729_12199" value="_17_0_5_1_3ba019e_1407453289831_314439_12200"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407453299254_837265_12300_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_3ba019e_1407453282336_95729_12199" value="_17_0_5_1_3ba019e_1407453289831_314439_12200"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_7b3022e_1402322103864_685023_5260_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_7b3022e_1398371871274_325203_7226" value="_17_0_5_1_7b3022e_1402322020693_502399_4717"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_7b3022e_1402322103864_685023_5260_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_7b3022e_1398371871274_325203_7226" value="_17_0_5_1_7b3022e_1402322020693_502399_4717"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_7b3022e_1402322101183_917446_5205_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_7b3022e_1400513593082_152185_5549" value="_17_0_5_1_7b3022e_1402322020693_502399_4717"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_7b3022e_1402322101183_917446_5205_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_7b3022e_1400513593082_152185_5549" value="_17_0_5_1_7b3022e_1402322020693_502399_4717"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407453207657_600857_12186_hyperlinkModel" name="hyperlinkModel" element="_17_0_5_1_3ba019e_1407452381122_290271_11885" value="_17_0_5_1_3ba019e_1407452246337_346899_10611"/>
+<mofext:Tag xmlns:mofext="http://www.omg.org/spec/MOF/20131001" xmi:type="mofext:Tag" xmi:id="_17_0_5_1_3ba019e_1407453207657_600857_12186_hyperlinkModelActive" name="hyperlinkModelActive" element="_17_0_5_1_3ba019e_1407452381122_290271_11885" value="_17_0_5_1_3ba019e_1407452246337_346899_10611"/>
+</xmi:XMI>
