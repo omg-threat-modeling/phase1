@@ -1,0 +1,1 @@
+The normative folder contains all artifacts, usualy "machine readable files" that are a normative part of the specification. This includes models and other forms of specification.

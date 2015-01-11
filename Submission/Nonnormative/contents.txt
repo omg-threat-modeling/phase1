@@ -1,0 +1,1 @@
+The Nonormative folder contains materils in support of the submission but that are not normative. This frequently includes examples or external artifacts relevant to the specification.
