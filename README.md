@@ -12,14 +12,15 @@ Our current in-progress draft submission is <a href=
 "https://github.com/omg-threat-modeling/phase1/blob/master/Submission/Draft%20Operational%20Threat%20Risk%20Submission.doc">HERE</a>
 
 
-The OMF Request For Proposal (RFP) is available here: 
-http://www.omg.org/cgi-bin/doc.cgi?sysa/2014-6-17
+The OMG Request For Proposal (RFP) is available <a href="http://www.omg.org/cgi-bin/doc.cgi?sysa/2014-6-17">here</a>
+
 
 The workgroup meets each week and at OMG meetings. This submission team is reaching out to industry experts to participate, particularly vendors, researchers and organizations with critical threat/risk needs. Please contact us if you are interested in joining us.
 
 Our team artifacts are located on github, here:<p/>
   ** <a href="https://github.com/omg-threat-modeling/phase1/">Github repository</a><p/>
   ** <a href="http://www.niem-uml.org/specs/threat/RiskThreatConceptualModel.html">Web view of conceptual model</a>
+  <p/>
   
 All information posted to this site must be unclassified and unrestricted. The site is open to all. Information derived from posted information may be utilized in the OMG specification being developed for threats and risks. Unless otherwise specified, all information posted to this site shall be deemed licensed under the Create Commons license.
 
