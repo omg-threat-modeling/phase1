@@ -6,6 +6,8 @@ OMG Threat an Risk Information Sharing and Federation Model
 
 The Object Management Group (omg.org) in collaboration with government, industry and academic organizations has initiated a standards activity for an operational threat and risk model (AKA Ontology) intended to federate multiple formats, technologies, sectors and use cases to enable a fusion of information in support of proactive and reactive threat/risk assessment, analytics, mitigation and information sharing. The focus of this effort is fusion of threat and risk information across physical, criminal and cyber concerns. Some of the data structures we are federating include the STIX, NIEM and EDXL standards.
 
+<h3><a href="http://www.threatrisk.org">Please see our community web site!</a></h3>
+
 As an OMG standards effort a team has formed to respond to this RFP with a specification for a proposed standard. This repository provides the foundation for the evolving specification.
 
 Our current in-progress draft submission is <a href=
