@@ -4,11 +4,10 @@ Prop3=19,2
 [{A7AF692E-098D-4C08-A225-D433CA835ED0}]
 Prop5=3,0
 Prop9=19,0
-Prop2=65,2C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8F0100004601000061060000C403000022
 [InternetShortcut]
-URL=http://www.niem-uml.org/specs/threat/RiskThreatConceptualModel.html
+URL=http://threatrisk.org/spec/Threat%20Risk%20Model.html
 IDList=
-IconFile=http://www.niem-uml.org/specs/threat/RiskThreatConceptualModel_files/images/mdicon.ico
+IconFile=http://threatrisk.org/spec/Threat%20Risk%20Model_files/images/mdicon.ico
 IconIndex=1
 [{9F4C2855-9F79-4B39-A8D0-E1D42DE1D5F3}]
-Prop5=8,Microsoft.Website.18E4A44B.A402050C
+Prop5=8,Microsoft.Website.E53EAE73.C109857
